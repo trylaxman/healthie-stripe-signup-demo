@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #080B12; color: #F8FAFC; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+input, select, textarea { color: #0f172a; }
+.bg-grid { background-image: radial-gradient(rgba(255,255,255,.08) 1px, transparent 1px); background-size: 26px 26px; }
+.card { border: 1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.06); backdrop-filter: blur(16px); }
+.btn { display:inline-flex; align-items:center; justify-content:center; border-radius: 14px; padding: 12px 18px; font-weight: 700; transition: .2s ease; }
+.btn-primary { background:#B8F05A; color:#07110E; }
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 16px 35px rgba(184,240,90,.18); }
+.btn-secondary { background:rgba(255,255,255,.08); color:#fff; border:1px solid rgba(255,255,255,.14); }
+.input { width:100%; border-radius: 14px; border:1px solid #dbe3ef; background:#fff; padding: 12px 14px; outline:none; }
+.label { font-size: 13px; font-weight: 700; color:#cbd5e1; margin-bottom: 6px; display:block; }
